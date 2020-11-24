@@ -3,7 +3,6 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   array = []
   row = 0 
-  letters = "abcedefghijklmnopqrstuvwxyz"
   
   while row < src.count do
     column = 0
